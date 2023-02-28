@@ -1,0 +1,19 @@
+.titulo{
+    font-size: 80px;
+    font-display:inherit;
+    color:aqua;
+}
+.fondo{
+    background-color: rgb(83, 245, 85);
+}
+p{
+    text-size-adjust: auto;
+}
+.primerElemento{
+    padding-top: 10px;
+    text-decoration-line: overline;
+}
+h1{
+    text-size-adjust: auto;
+    text-align: center;
+}
