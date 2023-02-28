@@ -1,18 +1,18 @@
-.titulo{
-    font-size: 80px;
-    color:rgb(0, 0, 0);
+.titulo {
+  font-size: 80px;
+  color: rgb(0, 0, 0);
 }
-.fondo{
-    background-color: rgb(255, 255, 255);
+.fondo {
+  background-color: rgb(255, 255, 255);
 }
-p{
-    text-size-adjust: auto;
+p {
+  text-size-adjust: auto;
 }
-.primerElemento{
-    padding-top: 10px;
-    text-decoration-line: overline;
+.primerElemento {
+  padding-top: 10px;
+  text-decoration-line: overline;
 }
-h1{
-    text-size-adjust: auto;
-    text-align: center;
+h1 {
+  text-size-adjust: auto;
+  text-align: center;
 }
