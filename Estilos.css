@@ -1,10 +1,9 @@
 .titulo{
     font-size: 80px;
-    font-display:inherit;
-    color:aqua;
+    color:rgb(0, 0, 0);
 }
 .fondo{
-    background-color: rgb(83, 245, 85);
+    background-color: rgb(255, 255, 255);
 }
 p{
     text-size-adjust: auto;
