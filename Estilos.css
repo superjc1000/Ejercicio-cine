@@ -28,6 +28,7 @@ h1 {
 }
 .elements_list {
   align-items: center;
+  background-color: black;
 }
 .description {
 }
