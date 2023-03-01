@@ -23,18 +23,21 @@ h1 {
 .main_content {
 }
 .filme_felipe {
+  display: table-row;
 }
 .category_header {
 }
 .elements_list {
-  align-items: center;
+  display: table-row;
   background-color: black;
 }
 .description {
 }
 .title {
+  color: rgb(255, 255, 255);
 }
 .date {
+  color: rgb(255, 255, 255);
 }
 .category1 {
 }
