@@ -27,6 +27,7 @@ h1 {
 .category_header {
 }
 .elements_list {
+  align-items: center;
 }
 .description {
 }
