@@ -8,7 +8,7 @@ const trending = async () => {
   data.results.map((item) => {
     divItem = document.createElement("div");
     divItem.innerHTML = `
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 12rem; height: 100%;">
             <img class="card-img-top" src="${
               "https://www.themoviedb.org/t/p/w440_and_h660_face" +
               item.poster_path
@@ -17,9 +17,6 @@ const trending = async () => {
                 <h5 class="card-title">${item.title}</h5>
                 <p class="card-text">Fecha de salida: ${item.release_date}</p>
                 <p class="card-text">Nota media: ${item.vote_average}</p>
-                <a href="#${
-                  item.homepage
-                }" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>
         `;
