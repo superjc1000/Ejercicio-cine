@@ -8,7 +8,7 @@ const trending = async () => {
   data.results.map((item) => {
     divItem = document.createElement("div");
     titulo = item.title;
-    if (item.title == "undefined") {
+    if (item.name) {
       titulo = item.name;
     }
     divItem.innerHTML = `
