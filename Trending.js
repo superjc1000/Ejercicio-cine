@@ -7,6 +7,10 @@ const trending = async () => {
   div_cine = document.querySelector("#resultado");
   data.results.map((item) => {
     divItem = document.createElement("div");
+    titulo = item.title;
+    if (item.title == "undefined") {
+      titulo = item.name;
+    }
     divItem.innerHTML = `
         <div class="card" style="width: 12rem; height: 100%;">
             <img class="card-img-top" src="${
@@ -14,7 +18,7 @@ const trending = async () => {
               item.poster_path
             }" alt="...">
             <div class="card-body">
-                <h5 class="card-title">${item.title}</h5>
+                <h5 class="card-title">${titulo}</h5>
                 <p class="card-text">Fecha de salida: ${item.release_date}</p>
                 <p class="card-text">Nota media: ${item.vote_average}</p>
             </div>
