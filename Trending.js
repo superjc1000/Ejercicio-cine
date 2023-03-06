@@ -7,10 +7,7 @@ const trending = async () => {
   div_cine = document.querySelector("#resultado");
   data.results.map((item) => {
     divItem = document.createElement("div");
-    titulo = item.title;
-    if (item.name) {
-      titulo = item.name;
-    }
+    item.name ? (titulo = item.name) : (titulo = item.title);
     divItem.innerHTML = `
         <div class="card" style="width: 12rem; height: 100%;">
             <img class="card-img-top" src="${
